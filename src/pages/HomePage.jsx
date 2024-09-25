@@ -1,11 +1,12 @@
 import React from 'react'
 import interviewImg from '../assests/interviewImage.jpg' 
 import BelowHomePage from './BelowHomePage'
+import ListOfCourseItems from './ListOfCourseItems'
 
 const HomePage = () => {
   return (
      <>
-        <div className='container'>
+        <div className='container abc'>
          <div className='d-flex'>
          <div className="col-lg-4 col-md-4 col-sm-6">
           <h1> Hi , I am Here to Help You to Crack the Interview Process </h1>
@@ -26,6 +27,7 @@ const HomePage = () => {
         </div>
 
         <BelowHomePage/>   
+        <ListOfCourseItems/>
     
      </>
   )
