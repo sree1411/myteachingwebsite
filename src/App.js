@@ -1,10 +1,11 @@
+
 import "./App.css";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import AllRoutes from './routes/AllRoutes'
 
-function App() {
 
+function App() {
 
   return (
     <div class="container-fluid">
@@ -13,6 +14,7 @@ function App() {
         <AllRoutes/>
     
       <Footer />
+ 
     </div>
   );
 }
