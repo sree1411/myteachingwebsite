@@ -5,6 +5,7 @@ import Advance from '../pages/Advance'
 import Intermediate from '../pages/Intermediate'
 
 import { Route, Routes } from 'react-router'
+import ReactJsCourse from '../pages/ReactJsCourse'
 const AllRoutes = () => {
   return (
       <Routes>
@@ -12,7 +13,7 @@ const AllRoutes = () => {
          <Route path='basic' element={<Basic/>}/>
          <Route path='advance' element={<Advance/>}/>
          <Route path='intermediate' element={<Intermediate />}/>
-
+         <Route path='/course' element={<ReactJsCourse/>}/>
       </Routes>
   )
 }

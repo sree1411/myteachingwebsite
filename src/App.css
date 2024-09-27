@@ -1,7 +1,138 @@
 main{
-    border: 1px solid red;
+    height: 98vh;
 }
  
 .abc{
     margin-top: 100px;
 }
+
+.abc {
+    background-color: #f8f9fa; /* Light background for the container */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .heading {
+    color: #343a40; /* Dark gray color for the heading */
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .subheading {
+    color: #6c757d; /* Muted text color */
+    margin-bottom: 20px;
+  }
+  
+  .course-list {
+    list-style-type: disc; /* Change to bullet points */
+    padding-left: 20px;
+  }
+  
+  .course-list li {
+    margin-bottom: 10px; /* Space between list items */
+    font-weight: 500; /* Medium weight for the list items */
+    list-style: none;
+  }
+  
+ 
+
+  .img-fluid {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Rounded corners for the image */
+  }
+  
+ 
+  
+  .section-title {
+    font-size: 2rem; /* Increase title font size */
+    margin-bottom: 20px; /* Spacing below the title */
+    color: #343a40; /* Dark gray color */
+  }
+  
+  .tech-icon {
+    width: 80px; /* Set a uniform width for the icons */
+    height: auto; /* Maintain aspect ratio */
+    transition: transform 0.3s; /* Smooth scaling effect on hover */
+  }
+  
+  .tech-icon:hover {
+    transform: scale(1.1); /* Scale up on hover */
+  }
+  
+  .row {
+    margin-bottom: 40px; /* Space between rows */
+  }
+  
+
+
+/* li{
+    list-style: none;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.abcd{
+    border: 1px solid red;
+} */
+
+/* Styling for the ReactJS Course Component */
+/* .course-header {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .course-header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .course-header h2 {
+    font-size: 24px;
+    font-weight: 300;
+    color: #666;
+  }
+  
+  .tabs-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .tabs-list {
+    display: flex;
+    gap: 15px;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .tabs-list li {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .tabs-list li:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-2px);
+  }
+  
+  .active-tab {
+    background-color: lightblue;
+    color: white;
+    border: 1px solid #007bff;
+  }
+  
+  .tab-content {
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #eee;
+    background-color: #fafafa;
+  }
+   */

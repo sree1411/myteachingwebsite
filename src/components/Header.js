@@ -3,13 +3,8 @@ import Navbar from './Navbar';
 
 const Header = () => {
 
-   const headerStyle = {
-      position: 'fixed',
-      top: 0,
-      width: '100%',
-    };
   return (
-   <header style={headerStyle}>
+   <header >
    <Navbar />
   </header>
   )
