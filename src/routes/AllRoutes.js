@@ -13,7 +13,7 @@ const AllRoutes = () => {
          <Route path='basic' element={<Basic/>}/>
          <Route path='advance' element={<Advance/>}/>
          <Route path='intermediate' element={<Intermediate />}/>
-         <Route path='/course' element={<ReactJsCourse/>}/>
+         <Route path='course' element={<ReactJsCourse/>}/>
       </Routes>
   )
 }
