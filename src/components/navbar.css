@@ -30,3 +30,8 @@
 .nav-link.active{
     background-color: white; 
 }
+
+.navbar-brand{
+    text-align: center;
+     height: 32px;
+}
