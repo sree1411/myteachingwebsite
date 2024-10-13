@@ -1,35 +1,36 @@
-import { NavLink,Link } from 'react-router-dom'
-
+import { NavLink } from 'react-router-dom'
+import './navbar.css'
 const Navbar = () => {
   return (
      <>
      
-     <nav className="navbar navbar-expand-lg bg-body-tertiary">
-  <div className="container-fluid">
-    <Link className="navbar-brand" to="/">SS-Institution  </Link>
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
-    </button>
-    <div className="collapse navbar-collapse" id="navbarNav">
-      <ul className="navbar-nav">
-      <li className="nav-item">
-          <NavLink className="nav-link" aria-current="page" to="/course" end> React Js Course</NavLink>
-        </li>
-        <li className="nav-item">
-          <NavLink className="nav-link" aria-current="page" to="/basic">Basic </NavLink>
-        </li>
-        <li className="nav-item">
-          <NavLink className="nav-link" aria-current="page" to="/advance">Advance </NavLink>
-        </li> 
-         <li className="nav-item">
-          <NavLink className="nav-link" aria-current="page" to="/intermediate">Intermediate</NavLink>
-        </li>
        
+        <nav className="navbar navbar-expand-lg bg-primary">
+           <div className="container">
+              
+           <NavLink to="/"  className="navbar-brand" ><h6>SS Institute</h6></NavLink>
+            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span className="navbar-toggler-icon"></span>
+      </button>
+             <div  className="collapse navbar-collapse" id="navbarSupportedContent">
+                 <ul className="navbar-nav ms-auto" >
+                    <li className="nav-item">
+                        <NavLink  to="/course" className="nav-link" aria-current="page" end> React Js</NavLink >
+                    </li>
+                    <li className="nav-item">
+                        <NavLink  to="/basic" className="nav-link" aria-current="page" > Basic </NavLink >
+                    </li>
+                    <li className="nav-item">
+                        <NavLink  to="/advance" className="nav-link" aria-current="page" > Advance </NavLink >
+                    </li>
+                    <li className="nav-item">
+                        <NavLink  to="/intermediate" className="nav-link" aria-current="page" > Intermediate </NavLink >
+                    </li>
+                 </ul>
+             </div>
+           </div>
+        </nav>
         
-      </ul>
-    </div>
-  </div>
-</nav>
      
      </>
   )

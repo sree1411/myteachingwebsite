@@ -1,0 +1,32 @@
+
+.navbar-brand{
+    background-color: white;
+    width: 110px;
+    text-align: center;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: rgb(22, 13, 2);
+}
+
+
+
+.nav-link{
+    color: white;
+}
+
+
+.navbar-nav{
+    text-align: center;
+    align-items: center;
+    /* gap: 10px; */
+} 
+
+.nav-link{
+    width: 110px;
+    text-align: center;
+    border-radius: 10px;
+}
+ 
+.nav-link.active{
+    background-color: white; 
+}
