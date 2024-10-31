@@ -4,7 +4,7 @@ import css3 from '../assests/css3.png';
 import js from '../assests/javascript.png';
 import react from '../assests/reactjs.png';
 import redux from '../assests/redux.png';
-import bootstrap from '../assests/bootstrap.png';
+import bootstrap1 from '../assests/bootstrap1.png';
 
 const BelowHomePage = () => {
   return (
@@ -85,7 +85,7 @@ const BelowHomePage = () => {
         </div>
         <div className="col" style={{ display: 'flex', justifyContent: 'center' }}>
           <img
-            src={bootstrap}
+            src={bootstrap1}
             alt='Bootstrap'
             style={{
               width: '150px',
