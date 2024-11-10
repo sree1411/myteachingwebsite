@@ -9,6 +9,7 @@ function App() {
 
   return (
     <div class="container-fluid">
+     
       <Header />
       
         <AllRoutes/>
