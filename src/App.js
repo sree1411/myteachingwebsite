@@ -1,21 +1,15 @@
-
 import "./App.css";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import AllRoutes from './routes/AllRoutes'
-
+import Footer from "./components/footer/Footer";
+import Header from "./components/header/Header";
+import Allroutes from "./routes/Allroutes";
+ 
 
 function App() {
-
   return (
-    <div class="container-fluid">
-     
-      <Header />
-      
-        <AllRoutes/>
-    
-      <Footer />
- 
+    <div>
+        <Header/>
+        <Allroutes/>
+        <Footer/>
     </div>
   );
 }

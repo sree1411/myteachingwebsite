@@ -53,7 +53,7 @@ const ContactUs = () => {
 
   return (
     <div className="container mt-5">
-      <form onSubmit={handleSubmit} style={{ maxWidth: '600px', margin: 'auto' }}>
+      <form onSubmit={handleSubmit}  >
         <div className="row mb-3">
           <div className="col">
             <label htmlFor="name" className="form-label">

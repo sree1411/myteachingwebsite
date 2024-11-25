@@ -1,9 +1,18 @@
 import React from 'react';
-import css from  '../assests/abc.pdf'
-const Basic = () => {
+
+const Advance = () => {
   return (
     <>
-      <main>
+      <main
+        style={{
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          height: '100vh',
+          backgroundColor: '#f8f9fa',
+          padding: '20px',
+        }}
+      >
         <div
           style={{
             textAlign: 'center',
@@ -13,17 +22,9 @@ const Basic = () => {
             backgroundColor: '#ffffff',
           }}
         >
-          <h1 style={{ fontSize: '2rem', color: '#343a40' }}>
-            Basic Interview Questions
-          </h1>
+          <h1 style={{ fontSize: '2rem', color: '#343a40' }}>Under Development of Intermediate Interview Questions</h1>
           <p style={{ fontSize: '1.2rem', color: '#6c757d', marginBottom: '20px' }}>
-            <a
-              href={css}   // Correct path to your file in the public folder
-              className='btn btn-primary'
-              download="Basic_Interview_Questions" // File will download with this name
-            >
-              Click here to download
-            </a>
+            This section is still being developed. Please wait for a few days for updates.
           </p>
           <p style={{ fontSize: '1rem', color: '#6c757d' }}>
             Thank you for your patience!
@@ -34,4 +35,4 @@ const Basic = () => {
   );
 };
 
-export default Basic;
+export default Advance;

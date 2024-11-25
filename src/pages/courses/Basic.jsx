@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Intermediate = () => {
+const Advance = () => {
   return (
     <>
       <main
@@ -22,7 +22,7 @@ const Intermediate = () => {
             backgroundColor: '#ffffff',
           }}
         >
-          <h1 style={{ fontSize: '2rem', color: '#343a40' }}>Under Development of intermedidate Interview Questions</h1>
+          <h1 style={{ fontSize: '2rem', color: '#343a40' }}>Under Development of Basic Interview Questions</h1>
           <p style={{ fontSize: '1.2rem', color: '#6c757d', marginBottom: '20px' }}>
             This section is still being developed. Please wait for a few days for updates.
           </p>
@@ -35,4 +35,4 @@ const Intermediate = () => {
   );
 };
 
-export default Intermediate;
+export default Advance;

@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import Overview from '../jscomponents/Overview';
-import Assignment from '../jscomponents/Assignment';
-import Circulams from '../jscomponents/Circulams';
-import Projects from '../jscomponents/Projects';
+import Overview from '../listofReactcourses/Overview';
+import Circulams from '../listofReactcourses/Circulams';
+import Assignment from '../listofReactcourses/Assignment';
+import Projects from '../listofReactcourses/Projects';
+ 
 
-const ReactJsCourse = () => {
+const ReactJs = () => {
   const [activeTab, setActiveTab] = useState('overview');
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
 
@@ -118,4 +119,4 @@ const ReactJsCourse = () => {
   );
 };
 
-export default ReactJsCourse;
+export default ReactJs;
